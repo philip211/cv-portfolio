@@ -168,10 +168,10 @@ function App() {
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 1.1 }} className="flex flex-wrap gap-4 pt-6 relative z-10">
-            <button className="group flex items-center gap-3 px-8 py-4 bg-white text-black font-bold rounded-2xl hover:scale-[1.02] active:scale-95 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.15)] hover:shadow-[0_0_40px_rgba(255,255,255,0.4)] relative overflow-hidden">
+            <a href="/resume.pdf" download="Philip-Resume.pdf" className="group flex items-center gap-3 px-8 py-4 bg-white text-black font-bold rounded-2xl hover:scale-[1.02] active:scale-95 transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.15)] hover:shadow-[0_0_40px_rgba(255,255,255,0.4)] relative overflow-hidden">
               <span className="absolute inset-0 bg-gradient-to-r from-transparent via-black/10 to-transparent -translate-x-full group-hover:animate-[shimmer_1.5s_infinite]"></span>
               {t('hero.download_cv')} <Download size={18} className="group-hover:-translate-y-1 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
             <a href="#projects" className="group flex items-center gap-3 px-8 py-4 bg-white/5 backdrop-blur-md border border-white/10 text-white font-bold rounded-2xl hover:bg-white/10 hover:border-white/30 transition-all duration-300">
                {t('hero.case_studies')} <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </a>
