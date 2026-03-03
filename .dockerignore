@@ -1,0 +1,15 @@
+node_modules
+dist
+.git
+.gitignore
+README.md
+.env*
+fix*.cjs
+fix_*.cjs
+fix_*.js
+add_decor.cjs
+add_imports.cjs
+check_left.cjs
+safe_map*.cjs
+translate_*.cjs
+update-i18n-projects.js
