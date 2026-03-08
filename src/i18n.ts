@@ -179,6 +179,40 @@ const resources = {
         "gitBtn": "VIEW COMMITS",
         "mailBtn": "WRITE EMAIL",
         "footer_built": "Built with React + Framer Motion. 2024."
+    },
+    "voice": {
+        "play": "Play voice intro",
+        "pause": "Pause",
+        "loading": "Loading audio...",
+        "listening": "Playing intro",
+        "paused": "Paused",
+        "clickToPlay": "Click to play",
+        "startIntro": "Start voice intro",
+        "error": "Audio error",
+        "promptTitle": "Voice Intro Ready",
+        "promptDescription": "Experience this CV with an AI-powered voice walkthrough. Just one tap to start.",
+        "startVoiceIntro": "Start Voice Intro",
+        "skipIntro": "Skip intro",
+        "listenCV": "🎧 LISTEN TO CV",
+        "playingCV": "Playing CV..."
+    },
+    "voiceAgent": {
+        "startConversation": "Talk to AI version of me",
+        "title": "AI Voice Assistant",
+        "subtitle": "Ask me about skills, experience, projects",
+        "status": {
+            "idle": "Ready to start",
+            "connecting": "Connecting...",
+            "connected": "Ready • Speak now",
+            "listening": "Listening...",
+            "thinking": "Thinking...",
+            "speaking": "Speaking...",
+            "error": "Connection error"
+        },
+        "emptyState": "Click \"Start Conversation\" to begin talking",
+        "startButton": "Start Conversation",
+        "endButton": "End Conversation",
+        "hint": "Speak naturally • The AI will respond with voice"
     }
 } },
   ru: { translation: {
@@ -352,6 +386,40 @@ const resources = {
         "gitBtn": "СМОТРЕТЬ КОММИТЫ",
         "mailBtn": "НАПИСАТЬ EMAIL",
         "footer_built": "Built with React + Framer Motion. 2024."
+    },
+    "voice": {
+        "play": "Включить голосовое представление",
+        "pause": "Пауза",
+        "loading": "Загрузка аудио...",
+        "listening": "Воспроизведение",
+        "paused": "На паузе",
+        "clickToPlay": "Нажмите для воспроизведения",
+        "startIntro": "Начать голосовое представление",
+        "error": "Ошибка аудио",
+        "promptTitle": "Голосовое представление готово",
+        "promptDescription": "Познакомьтесь с этим резюме через голосовую презентацию с ИИ. Всего одно нажатие.",
+        "startVoiceIntro": "Запустить голосовую презентацию",
+        "skipIntro": "Пропустить презентацию",
+        "listenCV": "🎧 ПРОСЛУШАТЬ CV",
+        "playingCV": "Проигрывается CV..."
+    },
+    "voiceAgent": {
+        "startConversation": "Поговорить с AI-версией меня",
+        "title": "AI-Голосовой Ассистент",
+        "subtitle": "Спросите о навыках, опыте, проектах",
+        "status": {
+            "idle": "Готов к запуску",
+            "connecting": "Подключение...",
+            "connected": "Готов • Говорите сейчас",
+            "listening": "Слушаю...",
+            "thinking": "Думаю...",
+            "speaking": "Говорю...",
+            "error": "Ошибка подключения"
+        },
+        "emptyState": "Нажмите \"Начать разговор\", чтобы начать",
+        "startButton": "Начать разговор",
+        "endButton": "Завершить разговор",
+        "hint": "Говорите естественно • AI ответит голосом"
     }
 } }
 };

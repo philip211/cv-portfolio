@@ -12,6 +12,7 @@ import { SentryStory } from './components/SentryStory';
 import { RealtimePlayground } from './components/RealtimePlayground';
 import { CustomCursor } from './components/CustomCursor';
 import { TiltWrapper } from './components/TiltWrapper';
+import { NavbarVoiceButton } from './components/NavbarVoiceButton';
 
 function App() {
   const [scrolled, setScrolled] = useState(false);
@@ -62,6 +63,13 @@ function App() {
     <div className="relative min-h-screen bg-[#030303] text-gray-300 selection:bg-blue-500/30 selection:text-white pb-32 font-sans font-light overflow-hidden cursor-none">
       <CustomCursor />
       {booting && <BootSequence onComplete={() => setBooting(false)} />}
+      
+      {/* Floating Voice Button - Bottom Right (above mobile button) */}
+      {!booting && (
+        <div className="fixed bottom-24 right-6 z-50">
+          <NavbarVoiceButton />
+        </div>
+      )}
       
       {/* Scroll Progress Bar */}
       <motion.div 
